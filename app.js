@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 const config = {
-  interval: 1 * 60 * 1000,
+  interval: 5 * 60 * 1000,
   url: 'https://theshrekbot.glitch.me/'
 }
 
