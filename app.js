@@ -2,7 +2,10 @@ const fetch = require('node-fetch');
 
 const config = {
   interval: 5 * 60 * 1000,
-  urls: ['https://1pg.glitch.me/', 'https://theshrekbot.glitch.me']
+  urls: [
+    'https://1pg.glitch.me/',
+    'https://theshrekbot.glitch.me'
+  ]
 }
 
 console.log(`Next ping in ${config.interval / 60 / 1000} min(s)`);
